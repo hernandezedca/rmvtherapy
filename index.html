@@ -22,6 +22,115 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/color.css">
+
+<!-- media queries for small devices responsiveness at max 480px
+============================================= -->
+<style>
+    @media screen and (max-width: 480px) {
+
+        .dtr-about-content {
+            align-items: center;
+        }
+        .dtr-about-content h2 {
+            font-size: 28px;
+        }
+        .dtr-about-content h4 {
+            font-size: 25px;
+        }
+        .dtr-about-content p {
+            font-size: 25px;
+        }
+        .dtr-about-tagline {
+            font-size: 25px;
+        }
+        .button {
+            font-size: 15px;
+            padding: 8px 12px;
+        }
+
+        .dtr-section-heading {
+            font-size: 22px; /* Reduce section heading size */
+        }
+
+        .dtr-promobox h4 {
+            font-size: 14px;
+        }
+
+        .dtr-promobox p {
+            font-size: 12px;
+        }
+
+        .dtr-promobox-tagline {
+            font-size: 12px;
+        }
+
+        .button {
+            font-size: 12px;
+            padding: 8px 10px;
+        }
+
+        /* Make columns stack on smaller screens */
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-12.col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            min-width: auto;
+        }
+    
+    #contact h2 {
+            font-size: 28px; /* Reduce heading size */
+        }
+
+        #contact h4 {
+            font-size: 18px;
+        }
+
+        #contact p {
+            font-size: 18px;
+        }
+
+        .text-size-md {
+            font-size: 18px;
+        }
+
+        /* Make the layout more mobile-friendly */
+        .row.dtr-box {
+            padding: 20px;
+            text-align: center; /* Center text for better alignment */
+        }
+
+        .col-12.col-md-5 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .bg-grey h2 {
+            font-size: 22px; /* Reduce heading size */
+        }
+
+        .bg-grey p {
+            font-size: 14px; /* Reduce paragraph text */
+        }
+
+        .button {
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+
+        /* Ensure full-width layout */
+        .col-12.col-md-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center; /* Center text for better readability */
+        }
+ }
+
+</style>
+
 </head>
 <body>
 <div id="dtr-wrapper" class="clearfix"> 
@@ -120,9 +229,10 @@
                     </div>
                 </div>
                 <!--===== row 1 ends =====--> 
-                
             </div>
         </section>
+
+   
         <!-- hero section ends
 ================================================== --> 
 
@@ -155,6 +265,7 @@
                  <!-- button ends --> 
             </div>
             <!-- content column ends --> 
+            
             
         </div>
         <!--== about ends ==--> 
