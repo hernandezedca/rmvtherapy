@@ -22,6 +22,115 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/color.css">
+
+<!-- media queries for small devices responsiveness at max 480px
+============================================= -->
+<style>
+    @media screen and (max-width: 480px) {
+
+        .dtr-about-content {
+            align-items: center;
+        }
+        .dtr-about-content h2 {
+            font-size: 28px;
+        }
+        .dtr-about-content h4 {
+            font-size: 25px;
+        }
+        .dtr-about-content p {
+            font-size: 25px;
+        }
+        .dtr-about-tagline {
+            font-size: 25px;
+        }
+        .button {
+            font-size: 15px;
+            padding: 8px 12px;
+        }
+
+        .dtr-section-heading {
+            font-size: 22px; /* Reduce section heading size */
+        }
+
+        .dtr-promobox h4 {
+            font-size: 14px;
+        }
+
+        .dtr-promobox p {
+            font-size: 12px;
+        }
+
+        .dtr-promobox-tagline {
+            font-size: 12px;
+        }
+
+        .button {
+            font-size: 12px;
+            padding: 8px 10px;
+        }
+
+        /* Make columns stack on smaller screens */
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-12.col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            min-width: auto;
+        }
+    
+    #contact h2 {
+            font-size: 28px; /* Reduce heading size */
+        }
+
+        #contact h4 {
+            font-size: 18px;
+        }
+
+        #contact p {
+            font-size: 18px;
+        }
+
+        .text-size-md {
+            font-size: 18px;
+        }
+
+        /* Make the layout more mobile-friendly */
+        .row.dtr-box {
+            padding: 20px;
+            text-align: center; /* Center text for better alignment */
+        }
+
+        .col-12.col-md-5 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .bg-grey h2 {
+            font-size: 22px; /* Reduce heading size */
+        }
+
+        .bg-grey p {
+            font-size: 14px; /* Reduce paragraph text */
+        }
+
+        .button {
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+
+        /* Ensure full-width layout */
+        .col-12.col-md-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center; /* Center text for better readability */
+        }
+ }
+
+</style>
+
 </head>
 <body>
 <div id="dtr-wrapper" class="clearfix"> 
@@ -151,8 +260,8 @@
                 <section>
                     <p>Το ταξίδι μου στον τομέα της Ψυχολογίας ξεκίνησε με τις προπτυχιακές σπουδές μου στο Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης. Επέλεξα την κατεύθυνση της Κλινικής Ψυχολογίας και παρακολούθησα βασικά μαθήματα Ψυχοπαθολογίας στο Πανεπιστήμιο της Βουργουνδίας, στη Γαλλία, μέσω του προγράμματος Erasmus. Ακόμη, πριν από την ολοκλήρωση των σπουδών μου, ξεκίνησα εθελοντική εργασία στο Σύλλογο Οικογενειών και Φίλων για την Ψυχική Υγεία (Σ.Ο.Φ.Ψ.Υ.) Σερρών, όπου συντόνισα θεραπευτικές ομάδες, εστιάζοντας σε γνωστικές και συμπεριφορικές παρεμβάσεις.</p>
                     <p>Παράλληλα, συνεργάστηκα με την Ελληνική Εταιρεία Νόσου Alzheimer και Συγγενών Διαταραχών, όπου εκπαιδεύτηκα σε μια εξειδικευμένη θεραπευτική παρέμβαση, το “Χοροθέατρο”. Η συγκεκριμένη παρέμβαση, έχει αποδειχθεί βοηθητική στην επιβράδυνση της εξάπλωσης της Νόσου Alzheimer και των συγγενών νευροεκφυλιστικών διαταραχών.</p>
-                    <p>Μετά τη λήψη του πτυχίου μου στην Ψυχολογία, με τράβηξε ο κόσμος της Οργανωσιακής Ψυχολογίας. Πραγματοποίησα ένα MBA στο Διεθνές Πανεπιστήμιο της Ελλάδος, και απέκτησα το 2ο πτυχίο μου, αυτή τη φορά επάνω στη Διοίκηση Επιχειρήσεων. Ξεκίνησα, παράλληλα, να εργάζομαι στον τομέα του Ανθρώπινου Δυναμικού. Ωστόσο, η αγάπη μου για την κλινική ψυχολογία παρέμεινε ισχυρή και αποφάσισα να διευρύνω τις γνώσεις μου στον τομέα της Ψυχοθεραπείας.</p>
-                    <p>Επέλεξα την προσέγγιση της Γνωστικής και Συμπεριφορικής Θεραπείας και ολοκλήρωσα την αντίστοιχη εκπαίδευση. Αφού ολοκλήρωσα τη “θητεία” μου στον τομέα της Οργανωσιακής Ψυχολογίας, μεταφέρθηκα στον τομέα της Ψυχικής Υγείας και εργάζομαι πλέον ως Σύμβουλος Ψυχικής Υγείας σε μια πολυεθνική που δραστηριοποιείται στη χώρα μας.</p>
+                    <p>Μετά τη λήψη του πτυχίου μου στην Ψυχολογία, με τράβηξε ο κόσμος της Οργανωσιακής Ψυχολογίας. Πραγματοποίησα ένα MBA στο Διεθνές Πανεπιστήμιο της Ελλάδος, και ακολούθως απέκτησα το δεύτερο πτυχίο μου, αυτή τη φορά στη Διοίκηση Επιχειρήσεων. Ξεκίνησα, παράλληλα, να εργάζομαι στον τομέα του Ανθρώπινου Δυναμικού. Ωστόσο, η αγάπη μου για την κλινική ψυχολογία παρέμεινε ισχυρή και αποφάσισα να διευρύνω τις γνώσεις μου στον τομέα της Ψυχοθεραπείας. </p>
+                    <p>Επέλεξα την προσέγγιση της Γνωστικής και Συμπεριφορικής Θεραπείας και ολοκλήρωσα την αντίστοιχη εκπαίδευση. Αφού ολοκλήρωσα τη “θητεία” μου στον τομέα της Οργανωσιακής Ψυχολογίας, μεταφέρθηκα στον τομέα της Ψυχικής Υγείας και εργάζομαι πλέον ως Σύμβουλος Ψυχικής Υγείας σε πολυεθνική εταιρεία που δραστηριοποιείται στη χώρα μας.</p>
                     <p>Σήμερα, διατηρώ τη θέση του Συμβούλου Ψυχικής Υγείας και παράλληλα το διαδικτυακό ιδιωτικό γραφείο μου, ως Ψυχολόγος και Ψυχοθεραπεύτρια.</p>
                 </section>
                 
@@ -169,7 +278,7 @@
 <!-- video section ends
 ================================================== --> 
 
-     <!-- contact section starts
+          <!-- contact section starts
 ================================================== -->
 <section id="contact" class="dtr-section dtr-mb-minus60">
     <div class="container"> 
@@ -180,11 +289,11 @@
             <!-- column 1 starts -->
             <div class="col-12 col-md-5">
                 <h2>Επικοινώνησε μαζί μου</h2>
-                <p>Είτε πρόκειται για ενδιαφέρον για ραντεβού, πληροφορίες για τη διαδικασία ή τις τιμές</p>
+                <p>Είτε πρόκειται για ενδιαφέρον για ραντεβού είτε για πληροφορίες για τη διαδικασία ή τις τιμές</p>
                 <h4 class="dtr-mt-30">Είμαι ένα τηλέφωνο μακριά! </h4>
                 <p class="text-size-md font-weight-extrabold"><span class="color-blue">t:</span> +30 6949 036 399</p>
                 <p>
-                <p class="text-size-md font-weight-extrabold"><span class="color-blue">e:</span> rmvtherapy@gmail.com </p>
+                <p class="text-size-md font-weight-extrabold"><span class="color-blue">e:</span>rmvtherapy@gmail.com</p>
             </div>
             <!-- column 1 ends --> 
             
@@ -193,8 +302,10 @@
                 
                 <!-- form starts -->
                 <div class="dtr-form">
-                    <form id="contactform" method="post" action="php/contact-form.php">
+                    <form id="contactform" action="https://api.web3forms.com/submit" method="POST" onsubmit="handleSubmit(event)">
                         <fieldset>
+                            <!-- Replace with your Access Key -->
+<input type="hidden" name="access_key" value="40323f5c-0bba-4149-be5f-5f24f6684679">
                             
                             <!-- form two columns start -->
                             <div class="dtr-form-row dtr-form-row-2col clearfix">
@@ -229,6 +340,50 @@
                 </div>
                 <!-- form ends --> 
                 
+                 <!-- Success message to display -->
+<div id="confirmationMessage" style="display:none; color: green;">
+<p  style="color: white;" >Ευχαριστώ για το μήνυμα! Θα σας καλέσω το συντομότερο δυνατό.</p> 
+</div>
+
+<!-- Error message to display -->
+<div id="errorMessage" style="display:none; color: red;">
+  <p>An error occurred. Please try again later.</p>
+</div>
+
+<script>
+  // Handle form submission and show confirmation message
+  function handleSubmit(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Send the form data using Formspree
+      var form = event.target;
+      var formData = new FormData(form);
+      
+      // Use fetch API to submit the form data
+      fetch(form.action, {
+          method: form.method,
+          body: formData
+      })
+      .then(response => {
+          if (response.ok) {
+              // If response is successful, show confirmation message and hide the form
+              form.style.display = 'none';
+              document.getElementById('confirmationMessage').style.display = 'block';
+              document.getElementById('errorMessage').style.display = 'none'; // Hide error message if successful
+          } else {
+              // If there's a problem with the form submission
+              document.getElementById('confirmationMessage').style.display = 'none'; // Hide success message
+              document.getElementById('errorMessage').style.display = 'block'; // Show error message
+          }
+      })
+      .catch(error => {
+          // If the network fails or another error occurs, show error message
+          console.error('Error:', error); // Log the error for debugging
+          document.getElementById('confirmationMessage').style.display = 'none'; // Hide success message
+          document.getElementById('errorMessage').style.display = 'block'; // Show error message
+      });
+  }
+</script>
             </div>
             <!-- column 2 ends --> 
             
@@ -240,7 +395,7 @@
 <!-- contact section ends
 ================================================== --> 
 
-          <!-- footer section starts
+       <!-- footer section starts
 ================================================== -->
 <footer id="dtr-footer"> 
             
@@ -264,7 +419,7 @@
                         <li><a href="index.html">Αρχική</a></li>
                         <li><a href="About page.html">Βιογραφικό</a></li>
                         <li><a href="approach.html">Προσέγγιση</a></li>
-                        <li><a href="#services">Υπηρεσίες</a></li>
+                        <li><a href="index.html#services">Υπηρεσίες</a></li>
                         <li><a href="problems.html">Συχνά Προβλήματα</a></li>
                     </ul>
                 </div>
@@ -277,7 +432,7 @@
                         <li><a href="psychotherapy.html">Ατομική Ψυχοθεραπεία</a></li>
                         <li><a href="couple.html">Ψυχοθεραπεία Ζεύγους</a></li>
                         <li><a href="stherapy.html">Σεξουαλικές Διαταραχές</a></li>
-                        <li><a href="serv4.html">Ψυχοσεμινάρια </a></li>
+                        <li><a href="serv4.html">Ψυχοεκπαιδεύσεις</a></li>
                         
                     </ul>
                 </div>
@@ -300,9 +455,8 @@
                     <div class="dtr-social-large dtr-mt-30">
                         <ul class="dtr-social dtr-social-list text-left">
                     
-                            <li><a href="#" class="dtr-skype" target="_blank" title="skype"></a></li>
-                            <li><a href="#" class="dtr-google" target="_blank" title="google"></a></li>
-                            
+                            <li><a href="https://join.skype.com/invite/HwuTOguKf99G" class="dtr-skype" target="_blank" title="skype"></a></li>
+                            <li><a href="https://www.linkedin.com/in/roxani-maria-vakalou-8529a6151?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqZd%2F%2FUchS0avm1Znd2%2BdRg%3D%3D" class="dtr-linkedin" target="_blank" title="dtr-linkedin"></a></li>
                         </ul>
                     </div>
                     <!-- social ends --> 
